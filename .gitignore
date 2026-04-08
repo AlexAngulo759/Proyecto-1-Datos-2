@@ -1,0 +1,30 @@
+# Archivos de Visual Studio
+.vs/
+*.suo
+*.user
+*.db
+*.opendb
+
+# Carpetas de compilación
+x64/
+Debug/
+Release/
+*/x64/
+*/Debug/
+*/Release/
+
+# Archivos compilados/binarios
+*.exe
+*.ilk
+*.pdb
+*.obj
+*.log
+*.tlog/
+*.recipe
+
+# Archivos de datos binarios
+*.bin
+
+# Archivos temporales
+*.tmp
+*.temp
