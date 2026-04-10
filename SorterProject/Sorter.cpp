@@ -16,9 +16,9 @@ using namespace std;
 #include "PagedArray.h"
 #include "Sort Algorithms/sorting.h"
 
-std::size_t g_pageSizeBytes = 0;
-std::size_t g_pageCount = 0;
-std::string g_radixTempPath = "radix_aux.tmp";
+size_t g_pageSizeBytes = 0;
+size_t g_pageCount = 0;
+string g_radixTempPath = "radix_aux.tmp";
 
 enum class Algorithm {
     Merge,
