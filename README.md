@@ -52,6 +52,11 @@ Primero tienes que ubicarte en la carpeta donde están los `.exe`. Por ejemplo, 
 ```bash
 cd "C:...\Proyecto-1-Datos-2\x64\Release"
 ```
+o por debug
+```bash
+cd "C:...\Proyecto-1-Datos-2\x64\Debug"
+```
+
 Luego desde ahí se ejecuta `Generator.exe -size <SMALL/MEDIUM/LARGE> -output <archivo>.bin `
 Para el generator y 
 `Sorter.exe -input <archivo>.bin -output <ordenado>.bin -alg <algoritmo> -pageSize <tamaño> -pageCount <paginas>`
