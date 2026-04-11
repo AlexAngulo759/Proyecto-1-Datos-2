@@ -21,9 +21,9 @@ static bool parse_size_label(const string& s, SizeLabel& out) {
 static uint64_t bytes_for_label(SizeLabel label) {
     const uint64_t MB = 1024ull * 1024ull;
     switch (label) {
-    case SizeLabel::SMALL:  return 128ull * MB;
-    case SizeLabel::MEDIUM: return 256ull * MB;
-    case SizeLabel::LARGE:  return 512ull * MB;
+    case SizeLabel::SMALL:  return 32ull * MB;
+    case SizeLabel::MEDIUM: return 64ull * MB;
+    case SizeLabel::LARGE:  return 128ull * MB;
     }
     return 0;
 }
